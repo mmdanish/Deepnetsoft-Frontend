@@ -11,10 +11,10 @@ const MenuTabs = () => {
         backgroundPosition: "center",
       }}
     >
-      {/* Dark Overlay */}
+
       <div className="absolute inset-0 bg-black opacity-75"></div>
 
-      {/* Buttons */}
+      
       <div className="relative flex space-x-4 px-4">
         <button className="px-6 py-2 border-2 border-white text-white uppercase tracking-widest hover:bg-blue-500 hover:text-white transition">
           Food

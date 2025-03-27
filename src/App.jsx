@@ -13,15 +13,13 @@ const App = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
-
       <div className="relative z-10 text-white">
-      <Navbar />
-      <Hero />
-      <MenuTabs />
-      <MenuSection />
-      <Footer />
+        <Navbar />
+        <Hero />
+        <MenuTabs />
+        <MenuSection />
+        <Footer />
       </div>
-      
     </div>
   );
 };
