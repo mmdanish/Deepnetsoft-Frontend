@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/Logo.svg";
+import Hamburger from '../assets/Hamburger.svg'
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +39,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div className="sm:hidden ml-auto">
           <button onClick={toggleMenu} className="focus:outline-none">
-            <img src="../assets/Hamburger.svg" alt="Menu" className="w-8 h-8" />
+            <img src={Hamburger} alt="Menu" className="w-8 h-8" />
           </button>
         </div>
 
